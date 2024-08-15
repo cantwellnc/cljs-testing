@@ -14,3 +14,5 @@
 - go `localhost:1341` + refresh the page
 - jack in to nrepl server @ `localhost:1339` + start coding!
     - for calva users like me, use the `Connect to a running REPL server, not in your project` + select `Generic`. This will allow you to directly enter the port on localhost that you want to connect to.
+
+![evaluating datascript code successfully](resources/assets/datascript.png)
