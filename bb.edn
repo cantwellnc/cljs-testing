@@ -4,7 +4,7 @@
         {:git/sha "b38c1f16ad2c618adae2c3b102a5520c261a7dd3"}}
  :tasks {http-server {:doc "Starts http server for serving static files"
                       :requires ([babashka.http-server :as http])
-                      :task (do (http/serve {:port 1341 :dir "public"})
+                      :task (do (http/serve {:port 1341 :dir "resources/public"})
                                 (println "Serving static assets at http://localhost:1341"))}
 
          browser-nrepl {:doc "Start browser nREPL"
